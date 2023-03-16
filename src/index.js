@@ -17,18 +17,18 @@ function saveData(e) {
   const user = { nameInfo, mailInfo, passInfo, passRepeatInfo };
   if (!nameInfo || !mailInfo || !passInfo || !passRepeatInfo) {
     msg.innerHTML =
-      " <p class='fw-normal text-danger'>All fields are ultramandatory</p>";
+      " <div class='alert alert-danger' role='alert'>All fields are ultramandatory</div>";
   } else if (!/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/.test(mailInfo)) {
     msg.innerHTML =
-      "<p class='fw-normal text-danger'>Wrong format email mate!</p>";
+      "<div class='alert alert-danger' role='alert'>Wrong format email mate!</div>";
   } else if (passInfo !== passRepeatInfo) {
     msg.innerHTML =
-      "<p class='fw-normal text-danger'>Pay attention! Should repeat password correctly if you want to enter in our cult!</p> ";
+      "<div class='alert alert-danger' role='alert'>Pay attention! Should repeat password correctly if you want to enter in our cult!</div> ";
   } else {
     userArray.push(user);
     localStorage.setItem("UsersData", JSON.stringify(userArray));
     msg.innerHTML =
-      "<p class='fw-normal text-success'>Yay! You sing up succesfully!</p> ";
+      "<div class='alert alert-success' role='alert'>Yay! You sing up succesfully!</div> ";
     form.reset();
   }
   setTimeout(() => {

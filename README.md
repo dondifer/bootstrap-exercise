@@ -9,7 +9,7 @@ To be able to view the result after cloning the repo is necessary to install and
 First of all we must install the following extensions:
 -Live Sass Compiler
 -Live Server
-![alt extensions](/bootstrap-exercise/src/assets/extensions.png)
+![alt extensions](src/assets/extensions.png)
 
 After that we will open a terminal in source code and we will run the following command:
 
@@ -18,7 +18,7 @@ After that we will open a terminal in source code and we will run the following 
 ```
 
 Once all dependencies are in our projects(node_modules folder), we will execute live server
-![alt extensions](/bootstrap-exercise/src/assets/live%20server.png)
+![alt extensions](src/assets/live%20server.png)
 
 ## Authors
 

@@ -1,5 +1,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.form {
+.form,
+.tag-names {
   padding: 3rem;
+}
+
+.tag-names {
+  display: flex;
+  flex-direction: column;
 }

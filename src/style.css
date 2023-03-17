@@ -10819,6 +10819,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.form {
+.form,
+.tag-names {
   padding: 3rem;
+}
+
+.tag-names {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

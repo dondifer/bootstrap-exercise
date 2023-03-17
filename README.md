@@ -2,6 +2,9 @@
 
 This project is a brief example of how we can use bootstrap making a simple form to save user data in local storage, and after that, show in the other display page called users.
 
+IMPORTANT HAVE NODEJS AND NPM INSTALLED TO RUN THIS PROYECT SEE NODE DOC:
+(https://nodejs.org/en/docs/guides)
+
 ## How to start
 
 To be able to view the result after cloning the repo is necessary to install and run some commands in order to compile the project

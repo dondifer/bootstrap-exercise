@@ -1,6 +1,6 @@
 # bootstrap-exercise
 
-IMPORTANT HAVE NODEJS AND NPM INSTALLED TO RUN THIS PROYECT SEE NODE DOC: (https://nodejs.org/en/docs/guides)
+IMPORTANT TO HAVE NODEJS AND NPM INSTALLED TO RUN THIS PROYECT SEE NODE DOC: (https://nodejs.org/en/docs/guides)
 
 
 This project is a brief example of how we can use bootstrap making a simple form to save user data in local storage, and after that, show in the other display page called users.

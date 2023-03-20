@@ -1,6 +1,6 @@
 document.querySelector("#submitBtn").addEventListener("click", saveData);
 
-let userArray = [];
+let userArray = JSON.parse(localStorage.getItem("UsersData")) || [];
 function saveData(e) {
   e.preventDefault();
   const form = document.getElementById("form");

@@ -30,6 +30,9 @@ function saveData(e) {
     msg.innerHTML =
       "<div class='alert alert-success' role='alert'>Yay! You sing up succesfully!</div> ";
     form.reset();
+    setTimeout(() => {
+      window.location.href = "./users.html";
+    }, 2000);
   }
   setTimeout(() => {
     msg.innerHTML = "";

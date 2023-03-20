@@ -32,7 +32,7 @@ function saveData(e) {
     form.reset();
     setTimeout(() => {
       window.location.href = "./users.html";
-    }, 2000);
+    }, 500);
   }
   setTimeout(() => {
     msg.innerHTML = "";
